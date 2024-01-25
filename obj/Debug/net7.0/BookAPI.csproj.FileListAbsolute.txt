@@ -42,3 +42,8 @@ C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\obj\Debug\net7.0\refint\
 C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\obj\Debug\net7.0\BookAPI.pdb
 C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\obj\Debug\net7.0\BookAPI.genruntimeconfig.cache
 C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\obj\Debug\net7.0\ref\BookAPI.dll
+C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\bin\Debug\net7.0\MailKit.dll
+C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\bin\Debug\net7.0\MimeKit.dll
+C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\izsombor\Documents\Minden cucc\Backend\BookAPI\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll

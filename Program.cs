@@ -1,6 +1,7 @@
 
 using BookAPI.Models;
 using BookAPI.Repositories;
+using BookAPI.Repositories.IEService;
 
 namespace BookAPI {
     public class Program {
@@ -19,6 +20,7 @@ namespace BookAPI {
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<IEmailInterface, EmailService>();
 
             var app = builder.Build();
 

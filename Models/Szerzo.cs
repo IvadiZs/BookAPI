@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace BookAPI.Models;
 
@@ -15,5 +16,6 @@ public partial class Szerzo
 
     public virtual ICollection<Konyv> Konyvs { get; } = new List<Konyv>();
 
+    [JsonIgnore]
     public virtual Nemzetiseg? Nemz { get; set; }
 }

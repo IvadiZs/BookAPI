@@ -10,5 +10,7 @@
         public record NemzetisegDTO(Guid Id, string SzerzoNemz);
         public record NemzetisegCreatedDTO(string SzerzoNemz);
         public record NemzetisegUpdateDTO(string SzerzoNemz);
+
+        public record EmailDTO(string To, string Subject, string Body);
     }
 }

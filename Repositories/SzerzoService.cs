@@ -37,7 +37,7 @@ namespace BookAPI.Repositories {
                 Id = Guid.NewGuid(),
                 Nev = createDTO.Nev,
                 Nem = createDTO.Nem,
-                NemzId = createDTO.NemzId,
+                NemzId = createDTO.NemzId
             };
 
             await dbContext.Szerzos.AddAsync(szerzo);
